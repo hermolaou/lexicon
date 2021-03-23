@@ -1,0 +1,61 @@
+message, ru, el, en, kz, lat
+
+wordStudy Изучать слова, Μαθαίνω τις λέξεις, Study words
+search, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
+
+tense, время, χρόνος, tense
+pres, настоящее, παρόν, present, praesens
+fut, будущее, μέλλοντικος, future, futurum
+aor, аорист, αόριστος, aorist, aoristus
+imperf, несовершенное, παρατατικός, imperfect, imperfectum
+perf, совершенное, παρακείμενος, συντελικός, perfectum
+plup, преждесовершенное, υπερσυντελικός, pluperfect (past perfect), plus quam perfectum
+futperf, будущее совершенное, μέλλον συντελικός, future perfect, futurum perfectum
+
+mood, наклонение, , mood, modus
+ind, изъявительное,, indicative, indicativus
+subj, сослагательное,, subjunctive, conjunctivus
+opt, желательное, ,ευκτικός, optative, optativus
+imperat, повелительное, προστακτικός, imperative, imperativus
+
+voice, залог, φωνή, voice, 
+act, действительный, ενεργετική
+mp, средне-страдательный, μέσοπαθητική
+mid, средний, μέση
+pass, страдательный, παθητική
+inf, инфинитив, απαρέμφατο, infinitive, infinituvus
+
+person, лицо, πρόσωπο, person, persona
+1st, 1-е л.,
+2nd, 2-е л.,
+3rd, 3-е л., 
+
+number, 
+sg, ед.ч.,
+pl, мн.ч.,
+dl, дв.ч., 
+
+gender,
+masc, мужской род, αρσενικό
+fem, женский род, θηλυκό
+neut, средний род, ουδέτερο
+
+case, 
+nom, именительный, ονομαστική, nominative
+gen, родительный, γενική, genitive
+dat, дательный, δατική, dative
+acc, винительный, αιτιατική,
+voc, звательный, 
+
+degree, 
+comp, сравнительная степень,
+superl, превосходная степень, 
+
+pos, 
+noun, существительное, ουσιαστικό
+verb, глагол, ρήμα, verb
+part, причастие, μετοχή, participle
+adj, прилагательное, επίθετο, adjective
+adv, наречие, επίρρημα, adverb, adverbum
+num, числительное, αριθμικό, numeral, 
+prep, предлог, πρὀθεση, pronoun, 

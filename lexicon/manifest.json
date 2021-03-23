@@ -1,0 +1,29 @@
+{
+    "name": "Greek lexicon & word study",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "Название достаточно описывает расширение.",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "pages/popup.html"
+    },
+    "background": {
+        "scripts": ["background.js", "lexicon.js",
+            "lib/jquery.min.js", "lib/include.js", "lib/greek.js",
+            "data/miniforms.js", "data/meanings.js"],
+        "persistent": false
+      },
+    "content_scripts": [
+        {
+            "matches": [
+              "<all_urls>"
+            ],
+            "js": ["lib/jquery.min.js", "content-scripts/content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "images/*.jpeg"
+    ]
+}
