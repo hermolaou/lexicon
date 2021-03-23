@@ -1,61 +1,63 @@
-message, ru, el, en, kz, lat
+message, description, ru, el, en, lat, placeholders
 
-wordStudy Изучать слова, Μαθαίνω τις λέξεις, Study words
-search, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
+wordStudy, Wordstudy Button title, Изучать слова, Μαθαίνω τις λέξεις, Study words
+search, Search Word examples button title, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
 
-tense, время, χρόνος, tense
-pres, настоящее, παρόν, present, praesens
-fut, будущее, μέλλοντικος, future, futurum
-aor, аорист, αόριστος, aorist, aoristus
-imperf, несовершенное, παρατατικός, imperfect, imperfectum
-perf, совершенное, παρακείμενος, συντελικός, perfectum
-plup, преждесовершенное, υπερσυντελικός, pluperfect (past perfect), plus quam perfectum
-futperf, будущее совершенное, μέλλον συντελικός, future perfect, futurum perfectum
+tense, verb/participle tense, время, χρόνος, tense, tempus
+pres, present tense, настоящее, παρόν, present, praesens
+fut, future tense, будущее, μέλλοντικος, future, futurum
+aor, aorist tense, аорист, αόριστος, aorist, aoristus
+imperf, imperfect tense, несовершенное, παρατατικός, imperfect, imperfectum
+perf, perfect tense, совершенное, παρακείμενος, συντελικός, perfectum
+plup, pluperfect tense, преждесовершенное, υπερσυντελικός, pluperfect (past perfect), plus quam perfectum
+futperf, future perfect tense, будущее совершенное, μέλλοντος συντελικός, future perfect, futurum perfectum
 
-mood, наклонение, , mood, modus
+mood, verb mood, наклонение, , mood, modus
 ind, изъявительное,, indicative, indicativus
 subj, сослагательное,, subjunctive, conjunctivus
 opt, желательное, ,ευκτικός, optative, optativus
 imperat, повелительное, προστακτικός, imperative, imperativus
 
-voice, залог, φωνή, voice, 
+voice, verb/participle voice, залог, φωνή, voice, 
 act, действительный, ενεργετική
 mp, средне-страдательный, μέσοπαθητική
 mid, средний, μέση
 pass, страдательный, παθητική
 inf, инфинитив, απαρέμφατο, infinitive, infinituvus
 
-person, лицо, πρόσωπο, person, persona
+person, verb person, лицо, πρόσωπο, person, persona
 1st, 1-е л.,
 2nd, 2-е л.,
 3rd, 3-е л., 
 
-number, 
+number, number (morphology)
 sg, ед.ч.,
 pl, мн.ч.,
 dl, дв.ч., 
 
-gender,
+gender, gender (morphology)
 masc, мужской род, αρσενικό
 fem, женский род, θηλυκό
 neut, средний род, ουδέτερο
 
-case, 
+case, case (morphology)
 nom, именительный, ονομαστική, nominative
 gen, родительный, γενική, genitive
 dat, дательный, δατική, dative
 acc, винительный, αιτιατική,
 voc, звательный, 
 
-degree, 
+degree, adjective degree, 
 comp, сравнительная степень,
 superl, превосходная степень, 
 
-pos, 
-noun, существительное, ουσιαστικό
-verb, глагол, ρήμα, verb
-part, причастие, μετοχή, participle
-adj, прилагательное, επίθετο, adjective
-adv, наречие, επίρρημα, adverb, adverbum
-num, числительное, αριθμικό, numeral, 
-prep, предлог, πρὀθεση, pronoun, 
+pos, part of speech, часть речи, μέρος, part of speech, 
+noun, noun, существительное, ουσιαστικό
+verb, verb, глагол, ρήμα, verb
+part, participle, причастие, μετοχή, participle
+adj, adjective, прилагательное, επίθετο, adjective
+adv, adverb, наречие, επίρρημα, adverb, adverbum
+num, numeral, числительное, αριθμικό, numeral, numeralis
+prep, preposition, предлог, πρὀθεση, preposition, praepositio
+indecl, indeclinable parts of speech, неизменяемые части речи
+pron, pronoun, местоимение, μετονυμία, pronoun, pronomen
