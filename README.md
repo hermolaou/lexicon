@@ -1,4 +1,17 @@
 # lexicon
+
+git add .
+
+git commit -m "Сообщение коммита"
+
+git push origin main
+
+# вытащить изменения из репозитория
+git pull
+
+git checkout -b localization
+git branch
+
 Древнегреческий лексикон в виде расширения для Chrome/Edge. Ещё не завершен.
 
 Ενα Αρχαία Ελληνική λεξικό σαν επέκταση για Chrome/Edge. Δεν είναι ολοκληρωμένο ακόμη.

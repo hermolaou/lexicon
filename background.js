@@ -33,8 +33,8 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 			var greeklangUrl=`http://greeklang.ru/?s=${word}&lookword=1`;
 			//var wikilexicoUrl=`https://el.wiktionary.org/w/index.php?search=${word}`;
 			
-			var url =	greeklangUrl
-			chrome.tabs.create({url: url});
+			var url = greeklangUrl
+			// chrome.tabs.create({url: url});
 
 			WordStudy(request.word);
 
