@@ -1,0 +1,106 @@
+{
+  "wordStudy": {
+    "message": "Study words",
+    "description": "Wordstudy Button title"
+  },
+  "search": {
+    "message": "Lookup word in sources",
+    "description": "Search Word examples button title"
+  },
+  "tense": {
+    "message": "tense",
+    "description": "verb/participle tense"
+  },
+  "pres": {
+    "message": "present",
+    "description": "present tense"
+  },
+  "fut": {
+    "message": "future",
+    "description": "future tense"
+  },
+  "aor": {
+    "message": "aorist",
+    "description": "aorist tense"
+  },
+  "imperf": {
+    "message": "imperfect",
+    "description": "imperfect tense"
+  },
+  "perf": {
+    "message": "συντελικός",
+    "description": "perfect tense"
+  },
+  "plup": {
+    "message": "pluperfect (past perfect)",
+    "description": "pluperfect tense"
+  },
+  "futperf": {
+    "message": "future perfect",
+    "description": "future perfect tense"
+  },
+  "mood": {
+    "message": "mood",
+    "description": "verb mood"
+  },
+  "ind": {
+    "message": "indicativus",
+    "description": "изъявительное"
+  },
+  "subj": {
+    "message": "conjunctivus",
+    "description": "сослагательное"
+  },
+  "opt": {
+    "message": "optative",
+    "description": "желательное"
+  },
+  "imperat": {
+    "message": "imperativus",
+    "description": "повелительное"
+  },
+  "voice": {
+    "message": "voice",
+    "description": "verb/participle voice"
+  },
+  "inf": {
+    "message": "infinituvus",
+    "description": "инфинитив"
+  },
+  "person": {
+    "message": "person",
+    "description": "verb person"
+  },
+  "pos": {
+    "message": "part of speech",
+    "description": "part of speech"
+  },
+  "verb": {
+    "message": "verb",
+    "description": "verb"
+  },
+  "part": {
+    "message": "participle",
+    "description": "participle"
+  },
+  "adj": {
+    "message": "adjective",
+    "description": "adjective"
+  },
+  "adv": {
+    "message": "adverb",
+    "description": "adverb"
+  },
+  "num": {
+    "message": "numeral",
+    "description": "numeral"
+  },
+  "prep": {
+    "message": "preposition",
+    "description": "preposition"
+  },
+  "pron": {
+    "message": "pronoun",
+    "description": "pronoun"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "wordStudy": {
+    "message": "Μαθαίνω τις λέξεις",
+    "description": "Wordstudy Button title"
+  },
+  "search": {
+    "message": "Αναζήτιση τον λόγο στης πηγές",
+    "description": "Search Word examples button title"
+  },
+  "tense": {
+    "message": "χρόνος",
+    "description": "verb/participle tense"
+  },
+  "pres": {
+    "message": "παρόν",
+    "description": "present tense"
+  },
+  "fut": {
+    "message": "μέλλοντικος",
+    "description": "future tense"
+  },
+  "aor": {
+    "message": "αόριστος",
+    "description": "aorist tense"
+  },
+  "imperf": {
+    "message": "παρατατικός",
+    "description": "imperfect tense"
+  },
+  "perf": {
+    "message": "παρακείμενος",
+    "description": "perfect tense"
+  },
+  "plup": {
+    "message": "υπερσυντελικός",
+    "description": "pluperfect tense"
+  },
+  "futperf": {
+    "message": "μέλλοντος συντελικός",
+    "description": "future perfect tense"
+  },
+  "mood": {
+    "message": "",
+    "description": "verb mood"
+  },
+  "ind": {
+    "message": "indicative",
+    "description": "изъявительное"
+  },
+  "subj": {
+    "message": "subjunctive",
+    "description": "сослагательное"
+  },
+  "opt": {
+    "message": "ευκτικός",
+    "description": "желательное"
+  },
+  "imperat": {
+    "message": "imperative",
+    "description": "повелительное"
+  },
+  "voice": {
+    "message": "φωνή",
+    "description": "verb/participle voice"
+  },
+  "inf": {
+    "message": "infinitive",
+    "description": "инфинитив"
+  },
+  "person": {
+    "message": "πρόσωπο",
+    "description": "verb person"
+  },
+  "nom": {
+    "message": "nominative",
+    "description": "именительный"
+  },
+  "gen": {
+    "message": "genitive",
+    "description": "родительный"
+  },
+  "dat": {
+    "message": "dative",
+    "description": "дательный"
+  },
+  "acc": {
+    "message": "",
+    "description": "винительный"
+  },
+  "pos": {
+    "message": "μέρος",
+    "description": "part of speech"
+  },
+  "noun": {
+    "message": "ουσιαστικό",
+    "description": "noun"
+  },
+  "verb": {
+    "message": "ρήμα",
+    "description": "verb"
+  },
+  "part": {
+    "message": "μετοχή",
+    "description": "participle"
+  },
+  "adj": {
+    "message": "επίθετο",
+    "description": "adjective"
+  },
+  "adv": {
+    "message": "επίρρημα",
+    "description": "adverb"
+  },
+  "num": {
+    "message": "αριθμικό",
+    "description": "numeral"
+  },
+  "prep": {
+    "message": "πρὀθεση",
+    "description": "preposition"
+  },
+  "pron": {
+    "message": "μετονυμία",
+    "description": "pronoun"
+  }
+}

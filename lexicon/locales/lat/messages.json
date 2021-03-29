@@ -1,0 +1,70 @@
+{
+  "tense": {
+    "message": "tempus",
+    "description": "verb/participle tense"
+  },
+  "pres": {
+    "message": "praesens",
+    "description": "present tense"
+  },
+  "fut": {
+    "message": "futurum",
+    "description": "future tense"
+  },
+  "aor": {
+    "message": "aoristus",
+    "description": "aorist tense"
+  },
+  "imperf": {
+    "message": "imperfectum",
+    "description": "imperfect tense"
+  },
+  "perf": {
+    "message": "perfectum",
+    "description": "perfect tense"
+  },
+  "plup": {
+    "message": "plus quam perfectum",
+    "description": "pluperfect tense"
+  },
+  "futperf": {
+    "message": "futurum perfectum",
+    "description": "future perfect tense"
+  },
+  "mood": {
+    "message": "modus",
+    "description": "verb mood"
+  },
+  "opt": {
+    "message": "optativus",
+    "description": "желательное"
+  },
+  "voice": {
+    "message": "",
+    "description": "verb/participle voice"
+  },
+  "person": {
+    "message": "persona",
+    "description": "verb person"
+  },
+  "pos": {
+    "message": "",
+    "description": "part of speech"
+  },
+  "adv": {
+    "message": "adverbum",
+    "description": "adverb"
+  },
+  "num": {
+    "message": "numeralis",
+    "description": "numeral"
+  },
+  "prep": {
+    "message": "praepositio",
+    "description": "preposition"
+  },
+  "pron": {
+    "message": "pronomen",
+    "description": "pronoun"
+  }
+}
