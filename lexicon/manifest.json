@@ -12,7 +12,7 @@
     "background": {
         "scripts": ["background.js", "lexicon.js",
             "lib/jquery.min.js", "lib/include.js", "lib/greek.js",
-            "data/miniforms.js", "data/meanings.js"],
+            "data/forms.js", "data/meanings.js"],
         "persistent": false
       },
     "content_scripts": [

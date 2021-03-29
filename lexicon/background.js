@@ -4,8 +4,7 @@
 // требуется убирать в слове ударения.
 
 // const url=chrome.runtime.getURL('popup/wordstudy.html?lemma=λήμμα&form=φόρμα');	
-const url=chrome.runtime.getURL('popup/meanings.html?lemma=λήμμα&form=φόρμα');	
-chrome.tabs.create({url: url})	
+
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	
@@ -19,8 +18,8 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 			//open our word page 
 			
 			//save context urrounding sentence in db or storage
-			/*const html=WordStudy(request.word)			
-			sendResponse(html)*/
+			const html=WordStudy(request.word)			
+			sendResponse(html)
 
 			//open modern Greek
 			var word=request.word
@@ -35,8 +34,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 			
 			var url = greeklangUrl
 			// chrome.tabs.create({url: url});
-
-			WordStudy(request.word);
+	
 
 	}
 	
