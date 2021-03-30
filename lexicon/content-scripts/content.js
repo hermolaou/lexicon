@@ -32,7 +32,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 $( "body" ).dblclick(function() {
 	if(document.activeElement.tagName=='INPUT' || document.activeElement.tagName=='TEXTAREA') return;
 		
-	var word=String(document.getSelection()).trim();
+	var word=String(document.getSelection()).trim().normalize();
 	if(!word.length) return;
 
 	const context='surrounding sentence'
