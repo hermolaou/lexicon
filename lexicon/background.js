@@ -1,10 +1,8 @@
-/* How can a script be complete without a doxologia to the Lord in the header???
+/* 
+	How can a script be complete without a doxologia to the Lord in the header???
 */
 
 // требуется убирать в слове ударения.
-
-// const url=chrome.runtime.getURL('popup/wordstudy.html?lemma=λήμμα&form=φόρμα');	
-
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	
@@ -17,7 +15,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		case 'wordstudy':
 			//open our word page 
 
-			var word=correctAccents(ReplaceExtChars(request.word))
+			var word=correctAccents(request.word)
 
 			//save context urrounding sentence in db or storage
 			const html=WordStudy(word)			
