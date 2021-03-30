@@ -16,13 +16,14 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 		case 'wordstudy':
 			//open our word page 
-			
+
+			var word=correctAccents(ReplaceExtChars(request.word))
+
 			//save context urrounding sentence in db or storage
-			const html=WordStudy(request.word)			
+			const html=WordStudy(word)			
 			sendResponse(html)
 
 			//open modern Greek
-			var word=request.word
 			if(word.length>=5)
 			word=word.substr(0,word.length*2/3).normalize();
 

@@ -1,9 +1,16 @@
 message, description, ru, el, en, lat, placeholders
 
+#interface
 wordStudy, Wordstudy button title, Изучать слова, Μαθαίνω τις λέξεις, Study words
 search, Search Word examples button title, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
 
+Начните вводить греческие или английские слова для изучения или запрос. Можно использовать рег. выр. и * и ?.
+           Двойной щелчок по слову открывает...<br>
+            Γράψτε ελληνικές ή αγγλικές λέξεις για να μάθετε ή εντολή SQL.<br>
+            Start typing Greek or English words to study or an SQL command. % and _ are allowed to look up words. Double click on a word opens a tab...
 
+
+#grammar
 tense, verb/participle tense, время, χρόνος, tense, tempus
 pres, present tense, настоящее, παρόντικός, present, praesens
 fut, future tense, будущее, μελλοντικός, future, futurum
