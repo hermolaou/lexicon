@@ -1,0 +1,116 @@
+﻿Lexicon data (backend) roadmap
+=============================
+
+SQL Server ancient Greek collation:
+collate Greek_100_CI_AS_SC
+
+
+Добавление словарей
+====================
+* в meanings
+* сканы страниц с индексом
+
+словарь Дворецкаго с классес.ру или ещё какой русский.
+недостающие слова на русском собрать и машинно перевести потом вручную.
+словарь на новогреческом
+
+Вейсмана и др. словари на хаб
+
+лексиконы с гитхаба.
+лексикон на новогреческий! константинилиса в виде страниц на гит.
+
+ //'this sort of thing in meanings: ἔλλαβ（ε), ἐλλάβετ（ο)
+    //ῥῤ problem. change to one. also dashes and braces in meanings.
+    
+//ῥῤ problem. change to one. also dashes and braces in meanings.
+
+
+Исправление и наращивание базы данных форм
+======================================
+*) модуль чтения с Персея
+
+'η) Разобрать формы средняго и пассивнаго залога и привести БД в полный порядок
+
+
+
+хранить данные можно
+* firebase, bigquery
+* в сжатом виде а то и прямо в расширении
+* на ГитХабе в виде страничек как у Вараха aa.json, abc.json, man.json, opt.json и т.д.
+
+
+Евагелоса скрипт перенести на ГитХаб
+===============================
+https://archive.org/details/@evagelosvar
+
+со всеми его словами, но слова хранить не в виде файлов
+
+
+
+all Greek words not in our db should be saved for looking up.
+       
+    
+//οράω, εώρα не может посмотреть.
+//all words from meanings for perseus parsing. perseus parsing with web scraping
+
+//Disabling the statistic in the database prevents the error. It seems that, the first time, the stats must be updated or something like that (thats the reason of high volume or writes).
+
+//el.wiktionary.org, greekdoc.com есть формы.
+
+// формы с приставками не должны ли иметь свои лиммы
+// чтобы лиммы все были в формах
+//some forms in lexicon but not in its p.o.s.-table");
+/*
+
+'a) Загрузить новые слова в базу из разных источников
+Зигабина, Янзиной, из Варахиина лексикона, из Козаржевскаго, из Meanings
+из Евагелоса API
+
+
+'α) в БД:
+	
+	//ἴδε ошибается pronouns
+'d) дело в том, что в формах скрывается много лимм с приставками. Все такие найти и сделать их
+'отдельными лиммами.
+''также и много форм с приставками, какие бывают и без приставок. Обогатить БД такими формами.
+
+	'что-нибудь на -σειν, будущее инф.
+	'ἀῤῥενωδῶς, ἀρρενωδῶς и подобн.
+	'проверить все пустые значения во временах, залогах...
+		
+	====================================================================
+
+	
+	παραλογίζομαι παραλογισθείσας aor     mp   pl fem  acc 
+	παραλογίζομαι παραλογισθείσας aor     mp   sg fem  gen 
+	Тут медиапассив, а обычно -θείσας - это пассив.
+	
+	ἀμείνων ἄμεινον прилагательное
+	ед.ч. женский род звательный сравнительная степень
+	 почему ж.р.?
+	
+	ἀφεστήξω ἀφίστασο imperf  ind     mp   2nd sg 
+
+	//χρῆ ἐχρῆν - выдает существительное вместо глагола и там и описания форм сущ и глаг вместе что неправильно.
+'select top 5 * from unparsed u where not exists (select null from lexicon l where l.form like u.lemma) and not exists (select null from unrecognized ur where ur.form like u.lemma)
+
+Некоторые формы попали в лексикон, но не обретаются в таблице своей части речи: ἔδω ἠδέσθην.
+
+
+' местоимения пихал в indeclinables...
+
+
+'τεροις -не все ли должны быть comp?	
+κλύω κλύοντες aor     act  pl masc nom 
+κλύω κλύοντες aor     act  pl masc voc 
+Но на -οντες подавляющее большинство - наст. вр. Почему тут вдруг аорист?
+*/
+
+
+//ongithubon github search for liddell & stuff, lexicon. +scott
+
+
+
+   
+    why many keys in autenrieth are "" proper names, not really needed
+

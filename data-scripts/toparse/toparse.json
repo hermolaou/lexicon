@@ -1,0 +1,656 @@
+[
+  {
+    "lemma": "βοῤῥᾶς, βορρᾶς",
+    "form": "βοῤῥᾶ, βορρᾶ",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "βοῤῥᾶς, βορρᾶς",
+    "form": "βοῤῥᾶν, βορρᾶν",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "βοῤῥᾶς, βορρᾶς",
+    "form": "βορρᾷ",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀῤῥενωδῶς, ἀρρενωδῶς",
+    "form": "ἀῤῥενωδῶς, ἀρρενωδῶς",
+    "pos": "adv    ",
+    "dialect": null
+  },
+  {
+    "lemma": "καρυίσκος, καρυΐσκος",
+    "form": "καρυίσκους",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "διΐστημι, διίστημι",
+    "form": "διϊστῶσιν, διιστῶσιν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κράβαττος, κράββατος",
+    "form": "κράβαττον",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κράβαττος, κράββατος",
+    "form": "κραβάττου",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κράβαττος, κράββατος",
+    "form": "κραββάτῳ",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "θαῤῥέω, θαρρέω",
+    "form": "θαῤῥῶ, θαρρῶ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "θαῤῥέω, θαρρέω",
+    "form": "θάῤῥει, θάρρει",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "θαῤῥέω, θαρρέω",
+    "form": "θαῤῥοῦμεν, θαρροῦμεν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "θαῤῥέω, θαρρέω",
+    "form": "θαῤῥῆσαι, θαρρῆσαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύβλιον, τρυβλίον",
+    "form": "τρυβλίῳ",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύβλιον, τρυβλίον",
+    "form": "τρυβλία",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύγητος, τρυγητός",
+    "form": "τρυγήτῳ",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύγητος, τρυγητός",
+    "form": "τρυγητῶν",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύγητος, τρυγητός",
+    "form": "τρύγητον, τρυγητόν",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "τρύγητος, τρυγητός",
+    "form": "τρυγήτου",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονέω, ἐλαττονέω",
+    "form": "ἠλαττόνησε",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονέω, ἐλαττονέω",
+    "form": "ἐλαττονήσει",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονέω, ἐλαττονέω",
+    "form": "ἐλαττονωθῇ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονέω, ἐλαττονέω",
+    "form": "ἐλαττονώθη",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονόω, ἐλαττονόω",
+    "form": "ἐλαττονοῦται",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσονόω, ἐλαττονόω",
+    "form": "ἐλαττονώσῃ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσόω, ἐλαττόω",
+    "form": "ἐλασσουμένῳ",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσόω, ἐλαττόω",
+    "form": "ἐλατομήθη",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσόω, ἐλαττόω",
+    "form": "ἐλαττῶν",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλασσόω, ἐλαττόω",
+    "form": "ἐλαττοῦσθαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλάσσων, ἐλάττων",
+    "form": "ἐλάσσονι",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἐλάσσων, ἐλάττων",
+    "form": "ἐλάττονι",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρείσσων, κρείττων",
+    "form": "κρείττονι",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κεκρεμάσθαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κρεμάζων",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κρεμάσῃ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κρεμάσει",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κρεμασθήτω",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "κρεμάζω, κρεμάννυμι",
+    "form": "κρεμασθῆναι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προέμενοι",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προέσθαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προήσεται",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προήσομαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προΐῃ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προΐεμαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προϊέμενον",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προΐεντο",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐημι, προίημι",
+    "form": "προῶμαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρόϊμος, πρόιμος",
+    "form": "πρόϊμα, πρόιμα",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρόϊμος, πρόιμος",
+    "form": "πρώϊμον, πρώιμον",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρόϊμος, πρόιμος",
+    "form": "πρώϊμος, πρώιμος",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "ὄμνυμι, ὀμνύω",
+    "form": "ὀμνύειν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ὄμνυμι, ὀμνύω",
+    "form": "ὀμνύναι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ὄμνυμι, ὀμνύω",
+    "form": "ὀμοσάτω",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥέω, ἀπορρέω",
+    "form": "ἀπεῤῥύη, ἀπερρύη",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥήσσω, ἀπορρήσσω",
+    "form": "ἀπέῤῥηξεν, ἀπέρρηξεν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥήσσω, ἀπορρήσσω",
+    "form": "ἀποῤῥήξει, ἀπορρήξει",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀπόῤῥητος, ἀπόρρητος",
+    "form": "ἀπόῤῥητα, ἀπόρρητα",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀπεθάνῃ",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀποθανεῖν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀποθάνωμε",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀποθνῄσκειν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀποθνῄσκετε",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποθνήσκω, ἀποθνῄσκω",
+    "form": "ἀποθνῃσκέτω",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπεῤῥίφη, ἀπερρίφη",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπεῤῥίφης, ἀπερρίφης",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπέῤῥιψα, ἀπέρριψα",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπέῤῥιψαν, ἀπέρριψαν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπέῤῥιψας, ἀπέρριψας",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπέῤῥιψεν, ἀπέρριψεν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀπόῤῥιπτε, ἀπόρριπτε",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀποῤῥίψῃς, ἀπορρίψῃς",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀποῤῥίψω, ἀπορρίψω",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥίπτω, ἀπορρίπτω",
+    "form": "ἀποῤῥῖψαι, ἀπορρῖψαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀπόῤῥοια, ἀπόρροια",
+    "form": "ἀπόῤῥοια, ἀπόρροια",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "μόλιβος, μόλυβος",
+    "form": "μόλυβον",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πόῤῥω, πόρρω",
+    "form": "πόῤῥω, πόρρω",
+    "pos": "adv    ",
+    "dialect": null
+  },
+  {
+    "lemma": "πόῤῥωθεν, πόρρωθεν",
+    "form": "πόῤῥωθεν, πόρρωθεν",
+    "pos": "adv    ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥώξ, ἀπορρώξ",
+    "form": "ἀποῤῥῶγας, ἀπορρῶγας",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀποῤῥώξ, ἀπορρώξ",
+    "form": "ἀποῤῥῶγος, ἀπορρῶγος",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ῥόα, ῥοά",
+    "form": "ῥόαι, ῥοαί",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστήκασιν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστηκόσι",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστηκότα",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστηκότας",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστηκότος",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προέστην",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστᾶσιν",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστῶτες",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προεστώς",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προϊστάμενοι",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προϊστάμενον",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προϊστάμενος",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προϊσταμένους",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προϊσταμένων",
+    "pos": "part   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προΐστασθαι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "πρόστητε",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "προΐστημι, προίστημι",
+    "form": "προστῆναι",
+    "pos": "verb   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρᾷος, πρᾶος",
+    "form": "πρᾶον",
+    "pos": "adj    ",
+    "dialect": null
+  },
+  {
+    "lemma": "ῥοΐσκος, ῥοίσκος",
+    "form": "ῥοίσκοις, ῥοΐσκοις",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ῥοΐσκος, ῥοίσκος",
+    "form": "ῥοίσκον, ῥοΐσκον",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ῥοΐσκος, ῥοίσκος",
+    "form": "ῥοίσκους, ῥοΐσκους",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ῥοΐσκος, ῥοίσκος",
+    "form": "ῥοίσκων, ῥοΐσκων",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρᾳότης, πραότης",
+    "form": "πραότητα, πρᾳότητα",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρᾳότης, πραότης",
+    "form": "πραότητι, πρᾳότητι",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "πρᾳότης, πραότης",
+    "form": "πραότητος, πρᾳότητος",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀῤῥωστία, ἀρρωστία",
+    "form": "ἀῤῥωστίαν, ἀρρωστιαν",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀῤῥωστία, ἀρρωστία",
+    "form": "ἀῤῥωστίαν, ἀρρωστίαν",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀῤῥωστία, ἀρρωστία",
+    "form": "ἀῤῥωστίας, ἀρρωστιας",
+    "pos": "noun   ",
+    "dialect": null
+  },
+  {
+    "lemma": "ἀῤῥωστία, ἀρρωστία",
+    "form": "ἀῤῥωστίας, ἀρρωστίας",
+    "pos": "noun   ",
+    "dialect": null
+  }
+]

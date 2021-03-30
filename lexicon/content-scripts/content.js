@@ -2,12 +2,6 @@
 	Glory to God in the highest as always.
 */ 
 
-// замена на правильный знак ударения. τὦ например неправильно заменяет. йоту подписную портит
-// древнегрееские слова чтоб на какие-нибудь древнегреческие сайт пока открвал да и все.
-
-
-//install right-click menu turn monotonic.
-
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	
 	//alert(JSON.stringify(request))
