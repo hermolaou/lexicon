@@ -8,14 +8,17 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	
 	switch(request.todo)
 	{
-		case 'meanings':
-			alert(request.word)
-			break
+		case 'getMeanings':
+			const q=(request.q)
 
-		case 'wordstudy':
+			sendResponse(meanings.filter(m=>m[0].startsWith(q)))
+
+			return
+
+		case 'wordStudy':
 			//open our word page 
 
-			var word=correctAccents(request.word)
+			var word=GreekNormalize(request.word)
 
 			//save context urrounding sentence in db or storage
 			const html=WordStudy(word)			

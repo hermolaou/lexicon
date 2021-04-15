@@ -37,6 +37,6 @@ $( "body" ).dblclick(function() {
 
 	const context='surrounding sentence'
 	
-	chrome.runtime.sendMessage({todo:"wordstudy", word: word, context: context})
+	chrome.runtime.sendMessage({todo:"wordStudy", word: word, context: context})
 });
  

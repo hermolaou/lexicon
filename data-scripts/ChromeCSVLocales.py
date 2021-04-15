@@ -10,13 +10,13 @@ import os
 
 
 # путь к каталогу с файлами локализации
-locale_path = '../lexicon/locales/'
+locale_path = '../lexicon/_locales/'
 
 # путь к CSV-файлу
 locale_file = locale_path+'messages.csv'
 
 # список языков
-langs = ['ru', 'el', 'en', 'lat']
+langs = ['ru', 'el', 'en', 'lat']       #желательно чтобы все поля до placeholders воспринимал как языки
 
 # создаем каталоги для каждого из языков, если они еще не созданы
 for lang in langs:
@@ -37,7 +37,7 @@ with open(locale_file, 'r', encoding='utf-8') as f:
         # разбиваем строку на слова
         words = line.split(',')
         # если строка пустая или первая, то пропускаем
-        if len(words) == 0 or j == 0:
+        if len(words) == 0 or j == 0: #также проверяем на знак комментария - #
             continue        
         try:
             # перебираем все языки
