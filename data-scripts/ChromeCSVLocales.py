@@ -50,7 +50,7 @@ with open(locale_file, 'r', encoding='utf-8') as f:
 for lang in langs:
     lang_file = locale_path+lang+'/messages.json'
     print('Create file: ' + lang_file)
-    with open(lang_file, 'w') as fd:
+    with open(lang_file, 'w', encoding='utf8') as fd:
         fd.write('{')
         for i, (row) in enumerate(json[lang]):
             if i != len(json[lang])-1:
