@@ -1,7 +1,7 @@
 {
   "wordStudy": {
     "message": "Study words",
-    "description": "Wordstudy Button title"
+    "description": "Wordstudy button title"
   },
   "search": {
     "message": "Lookup word in sources",
@@ -28,7 +28,7 @@
     "description": "imperfect tense"
   },
   "perf": {
-    "message": "συντελικός",
+    "message": "perfect",
     "description": "perfect tense"
   },
   "plup": {
@@ -44,36 +44,80 @@
     "description": "verb mood"
   },
   "ind": {
-    "message": "indicativus",
-    "description": "изъявительное"
+    "message": "indicative",
+    "description": "indicative mood"
   },
   "subj": {
-    "message": "conjunctivus",
-    "description": "сослагательное"
+    "message": "subjunctive",
+    "description": "subjunctive mood"
   },
   "opt": {
     "message": "optative",
-    "description": "желательное"
+    "description": "optative mood"
   },
   "imperat": {
-    "message": "imperativus",
-    "description": "повелительное"
+    "message": "imperative",
+    "description": "imperative mood"
   },
   "voice": {
     "message": "voice",
     "description": "verb/participle voice"
   },
+  "act": {
+    "message": "active",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "mediopassive",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "middle",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "passive",
+    "description": "passive voice"
+  },
   "inf": {
-    "message": "infinituvus",
-    "description": "инфинитив"
+    "message": "infinitive",
+    "description": "infinitive"
   },
   "person": {
     "message": "person",
     "description": "verb person"
   },
+  "case": {
+    "message": "πτώση",
+    "description": "case (grammar\"
+  },
+  "nom": {
+    "message": "nominative",
+    "description": "nominative case"
+  },
+  "gen": {
+    "message": "genitive",
+    "description": "genitive case"
+  },
+  "dat": {
+    "message": "dative",
+    "description": "dative case"
+  },
+  "acc": {
+    "message": "accusative",
+    "description": "accusative case"
+  },
+  "voc": {
+    "message": "vocative",
+    "description": "vocative case"
+  },
   "pos": {
     "message": "part of speech",
     "description": "part of speech"
+  },
+  "noun": {
+    "message": "",
+    "description": "noun"
   },
   "verb": {
     "message": "verb",

@@ -1,7 +1,7 @@
 {
   "wordStudy": {
     "message": "Μαθαίνω τις λέξεις",
-    "description": "Wordstudy Button title"
+    "description": "Wordstudy button title"
   },
   "search": {
     "message": "Αναζήτιση τον λόγο στης πηγές",
@@ -12,11 +12,11 @@
     "description": "verb/participle tense"
   },
   "pres": {
-    "message": "παρόν",
+    "message": "παρόντικός",
     "description": "present tense"
   },
   "fut": {
-    "message": "μέλλοντικος",
+    "message": "μελλοντικός",
     "description": "future tense"
   },
   "aor": {
@@ -40,52 +40,84 @@
     "description": "future perfect tense"
   },
   "mood": {
-    "message": "",
+    "message": "έγκλιση",
     "description": "verb mood"
   },
   "ind": {
-    "message": "indicative",
-    "description": "изъявительное"
+    "message": "οριστική",
+    "description": "indicative mood"
   },
   "subj": {
-    "message": "subjunctive",
-    "description": "сослагательное"
+    "message": "υποτακτική",
+    "description": "subjunctive mood"
   },
   "opt": {
-    "message": "ευκτικός",
-    "description": "желательное"
+    "message": "ευκτική",
+    "description": "optative mood"
   },
   "imperat": {
-    "message": "imperative",
-    "description": "повелительное"
+    "message": "προστακτική",
+    "description": "imperative mood"
   },
   "voice": {
     "message": "φωνή",
     "description": "verb/participle voice"
   },
+  "act": {
+    "message": "ενεργετική",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "μέσοπαθητική",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "μέση",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "παθητική",
+    "description": "passive voice"
+  },
   "inf": {
-    "message": "infinitive",
-    "description": "инфинитив"
+    "message": "απαρέμφατο",
+    "description": "infinitive"
   },
   "person": {
     "message": "πρόσωπο",
     "description": "verb person"
   },
+  "case": {
+    "message": "падеж",
+    "description": "case (grammar\"
+  },
   "nom": {
-    "message": "nominative",
-    "description": "именительный"
+    "message": "ονομαστική",
+    "description": "nominative case"
   },
   "gen": {
-    "message": "genitive",
-    "description": "родительный"
+    "message": "γενική",
+    "description": "genitive case"
   },
   "dat": {
-    "message": "dative",
-    "description": "дательный"
+    "message": "δατική",
+    "description": "dative case"
   },
   "acc": {
+    "message": "αιτιατική",
+    "description": "accusative case"
+  },
+  "voc": {
+    "message": "κλητική",
+    "description": "vocative case"
+  },
+  "comp": {
     "message": "",
-    "description": "винительный"
+    "description": "comparative degree"
+  },
+  "superl": {
+    "message": "",
+    "description": "superlative degree"
   },
   "pos": {
     "message": "μέρος",
@@ -112,15 +144,19 @@
     "description": "adverb"
   },
   "num": {
-    "message": "αριθμικό",
+    "message": "αριθμός",
     "description": "numeral"
   },
   "prep": {
-    "message": "πρὀθεση",
+    "message": "πρόθεση",
     "description": "preposition"
   },
+  "indecl": {
+    "message": "",
+    "description": "indeclinable parts of speech"
+  },
   "pron": {
-    "message": "μετονυμία",
+    "message": "μετωνυμία",
     "description": "pronoun"
   }
 }
