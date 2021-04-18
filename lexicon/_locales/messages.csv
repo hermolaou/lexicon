@@ -1,53 +1,53 @@
-﻿message,"description","ru","el","en","la",,,
-tense,"verb/participle tense","время","χρόνος","tense","tempus",,,
-pres,"present tense","настоящее","παρόντικος","present","praesens",,,
-fut,"future tense","будущее","μέλλοντας","future","futurum",,,
-aor,"aorist tense","аорист","αόριστος","aorist","aoristus",,,
-imperf,"imperfect tense","имперфект","παρατατικός","imperfect","imperfectum",,,
-perf,"perfect tense","перфект","παρακείμενος","perfect","perfectum",,,
-plup,"pluperfect tense","плюсквамперфект (давнопрошедшее)","υπερσυντελικός","pluperfect (past perfect)","plus quam perfectum",,,
-futperf,"future perfect tense","будущее совершенное","συντελικός μέλλοντας","future perfect","futurum perfectum",,,
-mood,"verb mood","наклонение","έγκλιση","mood","modus",,,
-ind,"indicative mood","изъявительное","οριστική","indicative","indicativus",,,
-subj,"subjunctive mood","сослагательное","υποτακτική","subjunctive","conjunctivus",,,
-opt,"optative mood","желательное","ευκτική","optative","optativus",,,
-imperat,"imperative mood","повелительное","προστακτική","imperative","imperativus",,,
-voice,"verb/participle voice","залог","φωνή","voice","vox",,,
-act,"active voice","действительный","ενεργετική","active","activum",,,
-mp,"mediopassive voice","средне-страдательный","μέσοπαθητική","mediopassive","mediopassivum",,,
-mid,"middle voice","средний","μέση","middle","medium",,,
-pass,"passive voice","страдательный","παθητική","passive","passivum",,,
-inf,"infinitive","инфинитив","απαρέμφατο","infinitive","infinituvus",,,
-person,"verb person","лицо","πρόσωπο","person","persona",,,
-1st,"1st person","1-е л.",,,,,,
-2nd,"2nd person","2-е л.",,,,,,
-3rd,"3rd person","3-е л.",,,,,,
-number,"number (grammar, morphology)","число","αριθμός","number","numero",,,
-sg,"singular","ед.ч.","ενικός",,,,,
-pl,"plural","мн.ч.","πληθυντικός",,,,,
-dl,"dual","дв.ч.","δυϊκός",,,,,
-gender,"gender (grammar, morphology)","род","γένος","gender",,,,
-masc,"masculine","мужской род","αρσενικό",,,,,
-fem,"feminine","женский род","θηλυκό",,,,,
-neut,"neuter","средний род","ουδέτερο",,,,,
-case,"case (grammar, morphology)","падеж","πτώση","case","casus",,,
-nom,"nominative case","именительный","ονομαστική","nominative",,,,
-gen,"genitive case","родительный","γενική","genitive",,,,
-dat,"dative case","дательный","δατική","dative","dativus",,,
-acc,"accusative case","винительный","αιτιατική","accusative","accusativus",,,
-voc,"vocative case","звательный","κλητική","vocative","vocativus ",,,
-degree,"adjective degree","степень сравнения","βαθμός",,,,,
-comp,"comparative degree","сравнительная степень",,,,,,
-superl,"superlative degree","превосходная степень",,,,,,
-pos,"part of speech","часть речи","μέρος","part of speech",,,,
-noun,"noun","существительное","ουσιαστικό","noun",,,,
-verb,"verb","глагол","ρήμα","verb","verbum",,,
-part,"participle","причастие","μετοχή","participle","participium",,,
-adj,"adjective","прилагательное","επίθετο","adjective","adjectivum",,,
-adv,"adverb","наречие","επίρρημα","adverb","adverbum",,,
-num,"numeral","числительное","αριθμός","numeral","numeralis",,,
-prep,"preposition","предлог","πρόθεση","preposition","praepositio",,,
-indecl,"indeclinable parts of speech","неизменяемые части речи",,,,,,
-pron,"pronoun","местоимение","μετωνυμία","pronoun","pronomen",,,
-wordStudy,"Wordstudy button title","Изучать слова","Μαθαίνω τις λέξεις","Study words",,,,
-search,"Search Word examples button title","Поиск слова в источниках","Αναζήτιση τον λόγο στης πηγές","Lookup word in sources",,,,
+﻿message,"description","ru","el","en","la"
+tense,"verb/participle tense","время","χρόνος","tense","tempus"
+pres,"present tense","настоящее","παρόντικος","present","praesens"
+fut,"future tense","будущее","μέλλοντας","future","futurum"
+aor,"aorist tense","аорист","αόριστος","aorist","aoristus"
+imperf,"imperfect tense","имперфект","παρατατικός","imperfect","imperfectum"
+perf,"perfect tense","перфект","παρακείμενος","perfect","perfectum"
+plup,"pluperfect tense","плюсквамперфект (давнопрошедшее)","υπερσυντελικός","pluperfect (past perfect)","plus quam perfectum"
+futperf,"future perfect tense","будущее совершенное","συντελικός μέλλοντας","future perfect","futurum perfectum"
+mood,"verb mood","наклонение","έγκλιση","mood","modus"
+ind,"indicative mood","изъявительное","οριστική","indicative","indicativus"
+subj,"subjunctive mood","сослагательное","υποτακτική","subjunctive","conjunctivus"
+opt,"optative mood","желательное","ευκτική","optative","optativus"
+imperat,"imperative mood","повелительное","προστακτική","imperative","imperativus"
+voice,"verb/participle voice","залог","φωνή","voice","vox"
+act,"active voice","действительный","ενεργετική","active","activum"
+mp,"mediopassive voice","средне-страдательный","μέσοπαθητική","mediopassive","mediopassivum"
+mid,"middle voice","средний","μέση","middle","medium"
+pass,"passive voice","страдательный","παθητική","passive","passivum"
+inf,"infinitive","инфинитив","απαρέμφατο","infinitive","infinituvus"
+person,"verb person","лицо","πρόσωπο","person","persona"
+1st,"1st person","1-е л.",,,
+2nd,"2nd person","2-е л.",,,
+3rd,"3rd person","3-е л.",,,
+number,"number (grammar, morphology)","число","αριθμός","number","numero"
+sg,"singular","ед.ч.","ενικός",,
+pl,"plural","мн.ч.","πληθυντικός",,
+dl,"dual","дв.ч.","δυϊκός",,
+gender,"gender (grammar, morphology)","род","γένος","gender",
+masc,"masculine","мужской род","αρσενικό",,
+fem,"feminine","женский род","θηλυκό",,
+neut,"neuter","средний род","ουδέτερο",,
+case,"case (grammar, morphology)","падеж","πτώση","case","casus"
+nom,"nominative case","именительный","ονομαστική","nominative",
+gen,"genitive case","родительный","γενική","genitive",
+dat,"dative case","дательный","δατική","dative","dativus"
+acc,"accusative case","винительный","αιτιατική","accusative","accusativus"
+voc,"vocative case","звательный","κλητική","vocative","vocativus "
+degree,"adjective degree","степень сравнения","βαθμός",,
+comp,"comparative degree","сравнительная степень",,,
+superl,"superlative degree","превосходная степень",,,
+pos,"part of speech","часть речи","μέρος","part of speech",
+noun,"noun","существительное","ουσιαστικό","noun",
+verb,"verb","глагол","ρήμα","verb","verbum"
+part,"participle","причастие","μετοχή","participle","participium"
+adj,"adjective","прилагательное","επίθετο","adjective","adjectivum"
+adv,"adverb","наречие","επίρρημα","adverb","adverbum"
+num,"numeral","числительное","αριθμός","numeral","numeralis"
+prep,"preposition","предлог","πρόθεση","preposition","praepositio"
+indecl,"indeclinable parts of speech","неизменяемые части речи",,,
+pron,"pronoun","местоимение","μετωνυμία","pronoun","pronomen"
+wordStudy,"Wordstudy button title","Изучать слова","Μαθαίνω τις λέξεις","Study words",
+search,"Search Word examples button title","Поиск слова в источниках","Αναζήτιση τον λόγο στης πηγές","Lookup word in sources",
