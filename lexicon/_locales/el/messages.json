@@ -1,22 +1,14 @@
 {
-  "wordStudy": {
-    "message": "Μαθαίνω τις λέξεις",
-    "description": "Wordstudy button title"
-  },
-  "search": {
-    "message": "Αναζήτιση τον λόγο στης πηγές",
-    "description": "Search Word examples button title"
-  },
-  "tense": {
+  "﻿tense": {
     "message": "χρόνος",
     "description": "verb/participle tense"
   },
   "pres": {
-    "message": "παρόντικός",
+    "message": "παρόντικος",
     "description": "present tense"
   },
   "fut": {
-    "message": "μελλοντικός",
+    "message": "μέλλοντας",
     "description": "future tense"
   },
   "aor": {
@@ -36,7 +28,7 @@
     "description": "pluperfect tense"
   },
   "futperf": {
-    "message": "μέλλοντος συντελικός",
+    "message": "συντελικός μέλλοντας",
     "description": "future perfect tense"
   },
   "mood": {
@@ -87,9 +79,41 @@
     "message": "πρόσωπο",
     "description": "verb person"
   },
+  "number": {
+    "message": "αριθμός",
+    "description": "number (grammar, morphology)"
+  },
+  "sg": {
+    "message": "ενικός",
+    "description": "singular"
+  },
+  "pl": {
+    "message": "πληθυντικός",
+    "description": "plural"
+  },
+  "dl": {
+    "message": "δυϊκός",
+    "description": "dual"
+  },
+  "gender": {
+    "message": "γένος",
+    "description": "gender (grammar, morphology)"
+  },
+  "masc": {
+    "message": "αρσενικό",
+    "description": "masculine"
+  },
+  "fem": {
+    "message": "θηλυκό",
+    "description": "feminine"
+  },
+  "neut": {
+    "message": "ουδέτερο",
+    "description": "neuter"
+  },
   "case": {
-    "message": "падеж",
-    "description": "case (grammar\"
+    "message": "πτώση",
+    "description": "case (grammar, morphology)"
   },
   "nom": {
     "message": "ονομαστική",
@@ -111,13 +135,9 @@
     "message": "κλητική",
     "description": "vocative case"
   },
-  "comp": {
-    "message": "",
-    "description": "comparative degree"
-  },
-  "superl": {
-    "message": "",
-    "description": "superlative degree"
+  "degree": {
+    "message": "βαθμός",
+    "description": "adjective degree"
   },
   "pos": {
     "message": "μέρος",
@@ -151,12 +171,16 @@
     "message": "πρόθεση",
     "description": "preposition"
   },
-  "indecl": {
-    "message": "",
-    "description": "indeclinable parts of speech"
-  },
   "pron": {
     "message": "μετωνυμία",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Μαθαίνω τις λέξεις",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Αναζήτιση τον λόγο στης πηγές",
+    "description": "Search Word examples button title"
   }
 }

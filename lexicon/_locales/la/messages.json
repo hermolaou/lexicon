@@ -1,5 +1,5 @@
 {
-  "tense": {
+  "﻿tense": {
     "message": "tempus",
     "description": "verb/participle tense"
   },
@@ -79,9 +79,13 @@
     "message": "persona",
     "description": "verb person"
   },
+  "number": {
+    "message": "numero",
+    "description": "number (grammar, morphology)"
+  },
   "case": {
-    "message": "case",
-    "description": "case (grammar\"
+    "message": "casus",
+    "description": "case (grammar, morphology)"
   },
   "dat": {
     "message": "dativus",
@@ -94,10 +98,6 @@
   "voc": {
     "message": "vocativus",
     "description": "vocative case"
-  },
-  "pos": {
-    "message": "",
-    "description": "part of speech"
   },
   "verb": {
     "message": "verbum",

@@ -1,13 +1,5 @@
 {
-  "wordStudy": {
-    "message": "Изучать слова",
-    "description": "Wordstudy button title"
-  },
-  "search": {
-    "message": "Поиск слова в источниках",
-    "description": "Search Word examples button title"
-  },
-  "tense": {
+  "﻿tense": {
     "message": "время",
     "description": "verb/participle tense"
   },
@@ -88,52 +80,52 @@
     "description": "verb person"
   },
   "1st": {
-    "message": "",
-    "description": "1-е л."
+    "message": "1-е л.",
+    "description": "1st person"
   },
   "2nd": {
-    "message": "",
-    "description": "2-е л."
+    "message": "2-е л.",
+    "description": "2nd person"
   },
   "3rd": {
-    "message": "",
-    "description": "3-е л."
+    "message": "3-е л.",
+    "description": "3rd person"
   },
   "number": {
-    "message": "morphology)",
-    "description": "umber (grammar\""
+    "message": "число",
+    "description": "number (grammar, morphology)"
   },
   "sg": {
-    "message": "ενικός",
-    "description": "ед.ч."
+    "message": "ед.ч.",
+    "description": "singular"
   },
   "pl": {
-    "message": "δυϊκός",
-    "description": "мн.ч."
+    "message": "мн.ч.",
+    "description": "plural"
   },
   "dl": {
-    "message": "πληθυντικός",
-    "description": "дв.ч."
+    "message": "дв.ч.",
+    "description": "dual"
   },
   "gender": {
-    "message": "morphology)",
-    "description": "gender (grammar\"
+    "message": "род",
+    "description": "gender (grammar, morphology)"
   },
   "masc": {
-    "message": "αρσενικό",
-    "description": "мужской род"
+    "message": "мужской род",
+    "description": "masculine"
   },
   "fem": {
-    "message": "θηλυκό",
-    "description": "женский род"
+    "message": "женский род",
+    "description": "feminine"
   },
   "neut": {
-    "message": "ουδέτερο",
-    "description": "средний род"
+    "message": "средний род",
+    "description": "neuter"
   },
   "case": {
-    "message": "morphology)",
-    "description": "case (grammar\"
+    "message": "падеж",
+    "description": "case (grammar, morphology)"
   },
   "nom": {
     "message": "именительный",
@@ -156,7 +148,7 @@
     "description": "vocative case"
   },
   "degree": {
-    "message": "",
+    "message": "степень сравнения",
     "description": "adjective degree"
   },
   "comp": {
@@ -206,5 +198,13 @@
   "pron": {
     "message": "местоимение",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Изучать слова",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Поиск слова в источниках",
+    "description": "Search Word examples button title"
   }
 }

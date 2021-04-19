@@ -1,5 +1,6 @@
-﻿message,"description","ru","el","en","la"
-tense,"verb/participle tense","время","χρόνος","tense","tempus"
+message,"description","ru","el","en","la"
+# файл может содержать комментарии, начинающиеся с символа диез, в любой строке, кроме первой
+﻿tense,"verb/participle tense","время","χρόνος","tense","tempus"
 pres,"present tense","настоящее","παρόντικος","present","praesens"
 fut,"future tense","будущее","μέλλοντας","future","futurum"
 aor,"aorist tense","аорист","αόριστος","aorist","aoristus"

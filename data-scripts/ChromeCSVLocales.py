@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Название: Locale.py
+# Название: ChromeCSVLocales.py
 # Описание: Программа для создания файлов локализации интерфейса плагина для Chrome
-# Версия:   1.0
+# Версия:   2.0
 #
 
 import os
+import pandas as pd
 
 
 # путь к каталогу с файлами локализации
@@ -15,8 +16,11 @@ locale_path = '../lexicon/_locales/'
 # путь к CSV-файлу
 locale_file = locale_path+'messages.csv'
 
+# читаем данные из CSV-файла игнорируя комментарии
+df = pd.read_csv(locale_file, comment='#')
+
 # список языков
-langs = ['ru', 'el', 'en', 'lat']       #желательно чтобы все поля до placeholders воспринимал как языки
+langs = list(df.columns)[2:]
 
 # создаем каталоги для каждого из языков, если они еще не созданы
 for lang in langs:
@@ -30,21 +34,22 @@ json = dict.fromkeys(langs)
 for key, value in json.items():
     json[key] = []
 
-# читаем данные из CSV-файла и заполняем словарь
-with open(locale_file, 'r', encoding='utf-8') as f:
-    # перебираем строки
-    for j, (line) in enumerate(f):
-        # разбиваем строку на слова
-        words = line.split(',')
-        # если строка пустая или первая, то пропускаем
-        if len(words) == 0 or j == 0: #также проверяем на знак комментария - #
-            continue        
-        try:
-            # перебираем все языки
-            for i, (lang) in enumerate(langs):
-                json[lang].append('\n  \"%s\": {\n    \"message\": \"%s\",\n    \"description\": \"%s\"\n  }' % (words[0].strip(), words[2+i].strip(), words[1].strip()))
-        except:
-            continue
+# перебираем строки
+for j in range(len(df)):
+    message = df.loc[j, 'message'].strip()
+    description = df.loc[j, 'description'].strip()
+    # если ключевое слово или описание отсутствуют, то переходим к следующей строке
+    if message is None or description is None:
+        continue
+    try:
+        # перебираем все языки
+        for lang in langs:
+            translation = df.loc[j, lang].strip()
+            # если перевод присутствует, то добавляем информацию в словарь
+            if translation is not None:
+                json[lang].append('\n  \"%s\": {\n    \"message\": \"%s\",\n    \"description\": \"%s\"\n  }' % (message, translation, description))
+    except:
+        continue
 
 # записываем результаты из словаря в файлы
 for lang in langs:

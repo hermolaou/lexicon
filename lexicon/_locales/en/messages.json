@@ -1,13 +1,5 @@
 {
-  "wordStudy": {
-    "message": "Study words",
-    "description": "Wordstudy button title"
-  },
-  "search": {
-    "message": "Lookup word in sources",
-    "description": "Search Word examples button title"
-  },
-  "tense": {
+  "﻿tense": {
     "message": "tense",
     "description": "verb/participle tense"
   },
@@ -87,9 +79,17 @@
     "message": "person",
     "description": "verb person"
   },
+  "number": {
+    "message": "number",
+    "description": "number (grammar, morphology)"
+  },
+  "gender": {
+    "message": "gender",
+    "description": "gender (grammar, morphology)"
+  },
   "case": {
-    "message": "πτώση",
-    "description": "case (grammar\"
+    "message": "case",
+    "description": "case (grammar, morphology)"
   },
   "nom": {
     "message": "nominative",
@@ -116,7 +116,7 @@
     "description": "part of speech"
   },
   "noun": {
-    "message": "",
+    "message": "noun",
     "description": "noun"
   },
   "verb": {
@@ -146,5 +146,13 @@
   "pron": {
     "message": "pronoun",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Study words",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Lookup word in sources",
+    "description": "Search Word examples button title"
   }
 }
