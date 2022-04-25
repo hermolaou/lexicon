@@ -58,74 +58,27 @@ function ReplaceExtChars(text) {
 }
 */
 
-// должна заменять тяжелое ударение на острое (гравис на акут) и удалять из слова второе ударение, если есть 
+// должна заменять тяжелое ударение на острое (гравис на акут)
+//и удалять из слова второе ударение, если есть 
+
+//а потом примеры на открытых вкладках можно сразу брать на страницу слова...
+//а также из закладок...
+//во всплывающей можно сделать значение слова...
+//αναζήτηση ... τονισμο ασχετό πρέπει,
+//να αφειρεθούν οι περιττές χαρακτήρες που εμποδίζουν διπλό κλικ
+//терпения мало, терпи и всё будет с Богом.
+//για γλυφ δεν βρει γλυφή
+//στην πίνακα σαν χρόνο, έγκλιση, αριθμό, λεζάντα
+
+// on github check the existing downloaders/uploaders vk archive wikimedia
 function GreekNormalize(word){
 	
 	//можно через normalize - replace - normalize
-	//word=word.normalize('UDF').replace('', '').normalize()...
-	
-	/*
-	var patches=
-		[
-			'άὰ,'έὲ', ...
-		];
-	
-		acute="ά έ ί ό ύ ή ώ"
-		grave=" ὲ ὶ ὸ ὺ ὴ ὼ"
-		
-	patches.forEach(function(r) {
-		word=word.replace(new RegExp(r.charAt(0),"g"), r.charAt(1));
-	});
-
+	word=word.normalize('NFD').replace("̀", "́").normalize();
+	/*lowercase
+	double streess
 	*/
 	return word
-	
-	/*
-'	rs.Open "greek", conn,,adLockOptimistic
-	
-'	rs.MoveFirst
-'	While Not(rs.EOF)
-'		word=rs.Fields("word")
-'		correct=CorrectAccents(word)
-'		If correct<>word Then
-		'	echo word
-'			SqlInsert "greektext", correct
-'			rs.Delete
-'		End If
-'		rs.movenext
-
-'	Wend
-
-	'снимаем второе ударение.
-	
-	reply=word
-
-
-	noaccent = "α ε ι ο υ η ω"
-	
-	dim i
-	For i=1 To Len(acute)
-		reply=Replace(reply, Mid(grave,i,1), Mid(acute, i,1))
-	Next
-		
-	For i = 1 To Len(reply)
-		char =Mid(reply,i,1)
-	'	echo char
-		If InStr(acute, char) Then
-		'	echo acute
-			If firstAccentFound Then
-				'second accent. remove it with
-			
-				reply=Left(reply, i-1) & Replace(reply, char, Mid(noaccent, InStr(acute, char),1), i, 1)
-			Else
-			
-				firstAccentFound=true
-			End If
-		End If
-	Next 
-	
-	CorrectAccents=reply
-	*/
 }
 
 /*
