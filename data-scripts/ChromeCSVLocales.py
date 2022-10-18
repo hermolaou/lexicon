@@ -10,7 +10,7 @@ import os
 
 
 # путь к каталогу с файлами локализации
-locale_path = '../lexicon/locales/'
+locale_path = '../lexicon/_locales/'
 
 # путь к CSV-файлу
 locale_file = locale_path+'messages.csv'
@@ -37,7 +37,7 @@ with open(locale_file, 'r', encoding='utf-8') as f:
         # разбиваем строку на слова
         words = line.split(',')
         # если строка пустая или первая, то пропускаем
-        if len(words) == 0 or j == 0:
+        if len(words) == 0 or j == 0 or line[0]=='#':
             continue        
         try:
             # перебираем все языки
@@ -50,11 +50,12 @@ with open(locale_file, 'r', encoding='utf-8') as f:
 for lang in langs:
     lang_file = locale_path+lang+'/messages.json'
     print('Create file: ' + lang_file)
-    with open(lang_file, 'w') as fd:
+    with open(lang_file, 'w', encoding='utf-8') as fd:
         fd.write('{')
         for i, (row) in enumerate(json[lang]):
             if i != len(json[lang])-1:
                 row = row+','
+            print('Write row: ' + row)
             fd.write(row)
         fd.write('\n}\n')
 

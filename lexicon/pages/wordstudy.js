@@ -6,7 +6,8 @@ document.title=lemma + " (" +form + ")"
 
 chrome.runtime.sendMessage({todo:'getLemmaData', lemma: lemma, form: lemma}, (resp)=>{
     hDescription.innerHTML=resp.description
-    divMeaning.innerHTML=resp.meaning;
+    divMeaning.innerHTML=JSON.stringify(resp.formsJSON) + "<br>"+ resp.meaning ;
+    
 
     tblForms1.innerHTML=resp.formsTable
 

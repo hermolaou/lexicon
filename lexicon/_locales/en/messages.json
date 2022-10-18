@@ -1,15 +1,7 @@
 {
-  "wordStudy": {
-    "message": "Study words",
-    "description": "Wordstudy Button title"
-  },
-  "search": {
-    "message": "Lookup word in sources",
-    "description": "Search Word examples button title"
-  },
   "tense": {
     "message": "tense",
-    "description": "verb/participle tense"
+    "description": "verb participle tense"
   },
   "pres": {
     "message": "present",
@@ -28,11 +20,11 @@
     "description": "imperfect tense"
   },
   "perf": {
-    "message": "συντελικός",
+    "message": "perfect",
     "description": "perfect tense"
   },
   "plup": {
-    "message": "pluperfect (past perfect)",
+    "message": "pluperfect past perfect",
     "description": "pluperfect tense"
   },
   "futperf": {
@@ -44,36 +36,112 @@
     "description": "verb mood"
   },
   "ind": {
-    "message": "indicativus",
-    "description": "изъявительное"
+    "message": "indicative",
+    "description": "indicative mood"
   },
   "subj": {
-    "message": "conjunctivus",
-    "description": "сослагательное"
+    "message": "subjunctive",
+    "description": "subjunctive mood"
   },
   "opt": {
     "message": "optative",
-    "description": "желательное"
+    "description": "optative mood"
   },
   "imperat": {
-    "message": "imperativus",
-    "description": "повелительное"
+    "message": "imperative",
+    "description": "imperative mood"
   },
   "voice": {
     "message": "voice",
-    "description": "verb/participle voice"
+    "description": "verb participle voice"
+  },
+  "act": {
+    "message": "active",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "mediopassive",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "middle",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "passive",
+    "description": "passive voice"
   },
   "inf": {
-    "message": "infinituvus",
-    "description": "инфинитив"
+    "message": "infinitive",
+    "description": "infinitive"
   },
   "person": {
     "message": "person",
     "description": "verb person"
   },
+  "1st": {
+    "message": "",
+    "description": "1st"
+  },
+  "2nd": {
+    "message": "",
+    "description": "2nd"
+  },
+  "3rd": {
+    "message": "",
+    "description": "3rd"
+  },
+  "sg": {
+    "message": "",
+    "description": "singular"
+  },
+  "pl": {
+    "message": "",
+    "description": "plural"
+  },
+  "dl": {
+    "message": "",
+    "description": "dual"
+  },
+  "case": {
+    "message": "case",
+    "description": "case grammar morphology"
+  },
+  "nom": {
+    "message": "nominative",
+    "description": "nominative case"
+  },
+  "gen": {
+    "message": "genitive",
+    "description": "genitive case"
+  },
+  "dat": {
+    "message": "dative",
+    "description": "dative case"
+  },
+  "acc": {
+    "message": "accusative",
+    "description": "accusative case"
+  },
+  "voc": {
+    "message": "vocative",
+    "description": "vocative case"
+  },
+  "comp": {
+    "message": "",
+    "description": "comparative degree"
+  },
+  "superl": {
+    "message": "",
+    "description": "superlative degree"
+  },
   "pos": {
     "message": "part of speech",
     "description": "part of speech"
+  },
+  "noun": {
+    "message": "",
+    "description": "noun"
   },
   "verb": {
     "message": "verb",

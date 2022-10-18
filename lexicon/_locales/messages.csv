@@ -1,24 +1,14 @@
-message, description, ru, el, en, lat, placeholders
-
-#interface
-wordStudy, Wordstudy button title, Изучать слова, Μαθαίνω τις λέξεις, Study words
-search, Search Word examples button title, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
-
-Начните вводить греческие или английские слова для изучения или запрос. Можно использовать рег. выр. и * и ?.
-           Двойной щелчок по слову открывает...<br>
-            Γράψτε ελληνικές ή αγγλικές λέξεις για να μάθετε ή εντολή SQL.<br>
-            Start typing Greek or English words to study or an SQL command. % and _ are allowed to look up words. Double click on a word opens a tab...
-
+﻿message, description, ru, el, en, lat, placeholders
 
 #grammar
-tense, verb/participle tense, время, χρόνος, tense, tempus
-pres, present tense, настоящее, παρόντικός, present, praesens
-fut, future tense, будущее, μελλοντικός, future, futurum
+tense, verb participle tense, время, χρόνος, tense, tempus
+pres, present tense, настоящее, ενεστώτας, present, praesens
+fut, future tense, будущее, μέλλοντας, future, futurum
 aor, aorist tense, аорист, αόριστος, aorist, aoristus
 imperf, imperfect tense, имперфект, παρατατικός, imperfect, imperfectum
 perf, perfect tense, перфект, παρακείμενος, perfect, perfectum
-plup, pluperfect tense, плюсквамперфект (давнопрошедшее), υπερσυντελικός, pluperfect (past perfect), plus quam perfectum
-futperf, future perfect tense, будущее совершенное, μέλλοντος συντελικός, future perfect, futurum perfectum
+plup, pluperfect tense, плюсквамперфект давнопрошедшее, υπερσυντέλικος, pluperfect past perfect, plus quam perfectum
+futperf, future perfect tense, перфектное будущее, συντελεσμένος μέλλοντας, future perfect, futurum perfectum
 
 mood, verb mood, наклонение, έγκλιση, mood, modus
 ind, indicative mood, изъявительное, οριστική, indicative, indicativus
@@ -26,7 +16,7 @@ subj, subjunctive mood, сослагательное, υποτακτική, subj
 opt, optative mood, желательное, ευκτική, optative, optativus
 imperat, imperative mood, повелительное, προστακτική, imperative, imperativus
 
-voice, verb/participle voice, залог, φωνή, voice, vox
+voice, voice, залог, φωνή, voice, vox
 act, active voice, действительный, ενεργετική, active, activum
 mp, mediopassive voice, средне-страдательный, μέσοπαθητική, mediopassive, mediopassivum
 mid, middle voice, средний, μέση, middle, medium
@@ -34,30 +24,30 @@ pass, passive voice, страдательный, παθητική, passive, pass
 inf, infinitive, инфинитив, απαρέμφατο, infinitive, infinituvus
 
 person, verb person, лицо, πρόσωπο, person, persona
-1st, 1-е л., 
-2nd, 2-е л.,
-3rd, 3-е л., 
+1st, 1st, 1-е л., 1ο,
+2nd, 2nd, 2-е л., 2ο, 
+3rd, 3rd, 3-е л., 3ο,
 
-number, number (grammar\, morphology)
-sg, ед.ч., ενικός
-pl, мн.ч., δυϊκός
-dl, дв.ч., πληθυντικός
+number, number, число, αριθμός
+sg, singular, ед. ч., ενικός, 
+pl, plural, мн. ч., πληθ.,
+dl, dual, дв. ч., δυϊκός, 
 
-gender, gender (grammar\, morphology)
-masc, мужской род, αρσενικό
-fem, женский род, θηλυκό
-neut, средний род, ουδέτερο
+gender, gender, род, γένος 
+masc, masculine, мужской род, αρσ.
+fem, feminine, женский род, θηλ.
+neut, neuter, средний род, ουδ.
 
-case, case (grammar\, morphology), падеж, πτώση, case, casus
-nom, nominative case, именительный, ονομαστική, nominative
-gen, genitive case, родительный, γενική, genitive
-dat, dative case, дательный, δατική, dative, dativus
-acc, accusative case, винительный, αιτιατική, accusative, accusativus
-voc, vocative case, звательный, κλητική, vocative, vocativus 
+case, case, падеж, πτώση, case, casus
+nom, nominative case, именительный, ονομ., nominative
+gen, genitive case, родительный, γεν., genitive
+dat, dative case, дательный, δοτ., dative, dativus
+acc, accusative case, винительный, αιτ., accusative, accusativus
+voc, vocative case, звательный, κλητ., vocative, vocativus 
 
-degree, adjective degree, 
-comp, comparative degree, сравнительная степень, 
-superl, superlative degree, превосходная степень, 
+degree, adjective degree, степень, βαθμός 
+comp, comparative degree, сравнительная степень, συγκριτικός
+superl, superlative degree, превосходная степень, υπερθετικός
 
 pos, part of speech, часть речи, μέρος, part of speech, 
 noun, noun, существительное, ουσιαστικό, 
@@ -68,4 +58,14 @@ adv, adverb, наречие, επίρρημα, adverb, adverbum
 num, numeral, числительное, αριθμός, numeral, numeralis
 prep, preposition, предлог, πρόθεση, preposition, praepositio
 indecl, indeclinable parts of speech, неизменяемые части речи, 
-pron, pronoun, местоимение, μετωνυμία, pronoun, pronomen
+pron, pronoun, местоимение, αντωνυμία, pronoun, pronomen
+
+#interface
+#wordStudy, Wordstudy button title, Изучать слова, Μαθαίνω τις λέξεις, Study words
+#search, Search Word examples button title, Поиск слова в источниках, Αναζήτιση τον λόγο στης πηγές, Lookup word in sources
+
+#instructionLabel, Start typing Greek or English words to study or an SQL command. % and _ are allowed to look up words. Double click on a word opens a tab...
+#Start typing Greek or English words to study or an SQL command. % and _ are allowed to look up words. Double click on a word opens a tab...,
+#Начните вводить греческие или английские слова для изучения или запрос. Можно использовать рег. выр. и * и ?. Двойной щелчок по слову открывает...<br>,
+#            Γράψτε ελληνικές ή αγγλικές λέξεις για να μάθετε ή εντολή SQL.<br>
+           

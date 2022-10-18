@@ -1,15 +1,7 @@
 {
-  "wordStudy": {
-    "message": "Изучать слова",
-    "description": "Wordstudy Button title"
-  },
-  "search": {
-    "message": "Поиск слова в источниках",
-    "description": "Search Word examples button title"
-  },
   "tense": {
     "message": "время",
-    "description": "verb/participle tense"
+    "description": "verb participle tense"
   },
   "pres": {
     "message": "настоящее",
@@ -24,19 +16,19 @@
     "description": "aorist tense"
   },
   "imperf": {
-    "message": "несовершенное",
+    "message": "имперфект",
     "description": "imperfect tense"
   },
   "perf": {
-    "message": "совершенное",
+    "message": "перфект",
     "description": "perfect tense"
   },
   "plup": {
-    "message": "преждесовершенное",
+    "message": "плюсквамперфект давнопрошедшее",
     "description": "pluperfect tense"
   },
   "futperf": {
-    "message": "будущее совершенное",
+    "message": "перфектное будущее",
     "description": "future perfect tense"
   },
   "mood": {
@@ -44,116 +36,116 @@
     "description": "verb mood"
   },
   "ind": {
-    "message": "",
-    "description": "изъявительное"
+    "message": "изъявительное",
+    "description": "indicative mood"
   },
   "subj": {
-    "message": "",
-    "description": "сослагательное"
+    "message": "сослагательное",
+    "description": "subjunctive mood"
   },
   "opt": {
-    "message": "",
-    "description": "желательное"
+    "message": "желательное",
+    "description": "optative mood"
   },
   "imperat": {
-    "message": "προστακτικός",
-    "description": "повелительное"
+    "message": "повелительное",
+    "description": "imperative mood"
   },
   "voice": {
     "message": "залог",
-    "description": "verb/participle voice"
+    "description": "verb participle voice"
   },
   "act": {
-    "message": "ενεργετική",
-    "description": "действительный"
+    "message": "действительный",
+    "description": "active voice"
   },
   "mp": {
-    "message": "μέσοπαθητική",
-    "description": "средне-страдательный"
+    "message": "средне-страдательный",
+    "description": "mediopassive voice"
   },
   "mid": {
-    "message": "μέση",
-    "description": "средний"
+    "message": "средний",
+    "description": "middle voice"
   },
   "pass": {
-    "message": "παθητική",
-    "description": "страдательный"
+    "message": "страдательный",
+    "description": "passive voice"
   },
   "inf": {
-    "message": "απαρέμφατο",
-    "description": "инфинитив"
+    "message": "инфинитив",
+    "description": "infinitive"
   },
   "person": {
     "message": "лицо",
     "description": "verb person"
   },
   "1st": {
-    "message": "",
-    "description": "1-е л."
+    "message": "1-е л.",
+    "description": "1st"
   },
   "2nd": {
-    "message": "",
-    "description": "2-е л."
+    "message": "2-е л.",
+    "description": "2nd"
   },
   "3rd": {
-    "message": "",
-    "description": "3-е л."
+    "message": "3-е л.",
+    "description": "3rd"
   },
   "sg": {
-    "message": "",
-    "description": "ед.ч."
+    "message": "ед. ч.",
+    "description": "singular"
   },
   "pl": {
-    "message": "",
-    "description": "мн.ч."
+    "message": "мн. ч.",
+    "description": "plural"
   },
   "dl": {
-    "message": "",
-    "description": "дв.ч."
+    "message": "дв. ч.",
+    "description": "dual"
   },
   "masc": {
-    "message": "αρσενικό",
-    "description": "мужской род"
+    "message": "мужской род",
+    "description": "masculine"
   },
   "fem": {
-    "message": "θηλυκό",
-    "description": "женский род"
+    "message": "женский род",
+    "description": "feminine"
   },
   "neut": {
-    "message": "ουδέτερο",
-    "description": "средний род"
+    "message": "средний род",
+    "description": "neuter"
+  },
+  "case": {
+    "message": "падеж",
+    "description": "case grammar morphology"
   },
   "nom": {
-    "message": "ονομαστική",
-    "description": "именительный"
+    "message": "именительный",
+    "description": "nominative case"
   },
   "gen": {
-    "message": "γενική",
-    "description": "родительный"
+    "message": "родительный",
+    "description": "genitive case"
   },
   "dat": {
-    "message": "δατική",
-    "description": "дательный"
+    "message": "дательный",
+    "description": "dative case"
   },
   "acc": {
-    "message": "αιτιατική",
-    "description": "винительный"
+    "message": "винительный",
+    "description": "accusative case"
   },
   "voc": {
-    "message": "",
-    "description": "звательный"
-  },
-  "degree": {
-    "message": "",
-    "description": "adjective degree"
+    "message": "звательный",
+    "description": "vocative case"
   },
   "comp": {
-    "message": "",
-    "description": "сравнительная степень"
+    "message": "сравнительная степень",
+    "description": "comparative degree"
   },
   "superl": {
-    "message": "",
-    "description": "превосходная степень"
+    "message": "превосходная степень",
+    "description": "superlative degree"
   },
   "pos": {
     "message": "часть речи",

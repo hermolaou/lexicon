@@ -5,11 +5,7 @@
 //We are fortunate in gaining the experience that paradoxically the most beautiful and useful results
 //can be achieved by just using the most simple means
 
-//chrome.runtime.sendMessage({todo:'wordstudy', word: "ταπείνωσις"})
-
-
-
-$("textarea").on('input', function(){
+$("input").on('input', function(){
 
 	//send message 
 	//if (st) clearTimeout (st);
@@ -30,7 +26,7 @@ $("textarea").on('input', function(){
 	
 		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
 			divResults.innerText=response.map((entry)=>{return entry[1]})
-		}), 1000);
+		}), 1200);
 		
 		
 		/*
