@@ -16,16 +16,21 @@ $("textarea").on('input', function(){
 	
 	//st = setTimeout (function() {
 		
-	q=txtWords.value;
+	q=GreekNormalize(txtWords.value.normalize());
 
 	//if select query entered try it
 
-	if (q.match(/^[\u0300-\u03ff\u1f00-\u1fff\s%_,]+$/))
+	if (q.match(/^[\u0300-\u03ff\u1f00-\u1fff\s]+$/))
 	{
-		q=CorrectAccents(ReplaceExtChars(String(q.match(/[\u0300-\u03ff\u1f00-\u1fff%_]+/))));
+		//q=(String(q.match(/[\u0300-\u03ff\u1f00-\u1fff%_]+/)));
 		
 		//if (!q.match(/[%_]/)) q+='%';
 		
+		if (q.length<3) return
+	
+		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
+			divResults.innerText=response.map((entry)=>{return entry[1]})
+		}), 1000);
 		
 		
 		/*
@@ -45,13 +50,6 @@ $("textarea").on('input', function(){
 		if (q.match(/ῤῥ/))
 			PopulateQueries(q.replace("ῤῥ", 'ρρ'))
 		*/
-
-		if (q.length<3) return
-		return
-		
-		chrome.runtime.sendMessage({todo:'meanings', word: q}, function(response){		
-			divResults.innerText=response
-		})
 
 		
 		//divResults.innerHTML="";
@@ -76,7 +74,7 @@ $("textarea").on('input', function(){
 		SqlAsync(qs, outputData);
 		*/
 	
-	} else if (q.match(/^[\w\s]+$/)) {
+	//} else if (q.match(/^[\w\s]+$/)) {
 		//if English then load it through xml right here
 		//EnglishWordView
 		

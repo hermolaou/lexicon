@@ -59,9 +59,10 @@ function ReplaceExtChars(text) {
 */
 
 // должна заменять тяжелое ударение на острое (гравис на акут) и удалять из слова второе ударение, если есть 
-function correctAccents(word){
+function GreekNormalize(word){
 	
 	//можно через normalize - replace - normalize
+	//word=word.normalize('UDF').replace('', '').normalize()...
 	
 	/*
 	var patches=
