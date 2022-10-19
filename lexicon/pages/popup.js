@@ -8,31 +8,21 @@
 $("input").on('input', function(){
 
 	//send message 
-	//if (st) clearTimeout (st);
-	
-	//st = setTimeout (function() {
 		
-	q=GreekNormalize(GreekNormalize(txtWords.value.normalize()).normalize());
+	q=GreekNormalize(txtWords.value.normalize(), {"stripdiacritics":true});
 
-	//if select query entered try it
-
-	if (q.match(/^[\u0300-\u03ff\u1f00-\u1fff\s]+$/))
+	if (q.length<3) return
+	
+	if (q.match(/^[\u0300-\u03ff\u1f00-\u1fff\s]+$/))	//greek characters only
 	{
 		//q=(String(q.match(/[\u0300-\u03ff\u1f00-\u1fff%_]+/)));
 		
 		//if (!q.match(/[%_]/)) q+='%';
 		
-		if (q.length<3) return
-	
-		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
-			divResults.innerText=response.map((entry)=>{return entry[1]})
+		setTimeout(chrome.runtime.sendMessage({todo:'getFormsAndMeanings', q: q}, function(response){
+			divResults.innerText=response.map((entry)=> entry[1])
 		}), 1200);
-		if (q.length<3) return
 	
-		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
-			divResults.innerText=response.map((entry)=>{return entry[1]})
-		}), 1200);
-		
 		
 		/*
 		var qs = [];

@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	
 	switch(request.todo)
 	{
-		case 'getMeanings':
+		case 'getFormsAndMeanings':
 			const q=(request.q)
 
 			sendResponse(meanings.filter(m=>m[0].startsWith(q)))

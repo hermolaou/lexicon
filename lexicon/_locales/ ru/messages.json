@@ -1,0 +1,202 @@
+{
+  "tense": {
+    "message": "время",
+    "description": "verb participle tense"
+  },
+  "pres": {
+    "message": "настоящее",
+    "description": "present tense"
+  },
+  "fut": {
+    "message": "будущее",
+    "description": "future tense"
+  },
+  "aor": {
+    "message": "аорист",
+    "description": "aorist tense"
+  },
+  "imperf": {
+    "message": "имперфект",
+    "description": "imperfect tense"
+  },
+  "perf": {
+    "message": "перфект",
+    "description": "perfect tense"
+  },
+  "plup": {
+    "message": "плюсквамперфект давнопрошедшее",
+    "description": "pluperfect tense"
+  },
+  "futperf": {
+    "message": "перфектное будущее",
+    "description": "future perfect tense"
+  },
+  "mood": {
+    "message": "наклонение",
+    "description": "verb mood"
+  },
+  "ind": {
+    "message": "изъявительное",
+    "description": "indicative mood"
+  },
+  "subj": {
+    "message": "сослагательное",
+    "description": "subjunctive mood"
+  },
+  "opt": {
+    "message": "желательное",
+    "description": "optative mood"
+  },
+  "imperat": {
+    "message": "повелительное",
+    "description": "imperative mood"
+  },
+  "voice": {
+    "message": "залог",
+    "description": "voice"
+  },
+  "act": {
+    "message": "действительный",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "средне-страдательный",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "средний",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "страдательный",
+    "description": "passive voice"
+  },
+  "inf": {
+    "message": "инфинитив",
+    "description": "infinitive"
+  },
+  "person": {
+    "message": "лицо",
+    "description": "verb person"
+  },
+  "1st": {
+    "message": "1-е л.",
+    "description": "1st"
+  },
+  "2nd": {
+    "message": "2-е л.",
+    "description": "2nd"
+  },
+  "3rd": {
+    "message": "3-е л.",
+    "description": "3rd"
+  },
+  "number": {
+    "message": "число",
+    "description": "number"
+  },
+  "sg": {
+    "message": "ед. ч.",
+    "description": "singular"
+  },
+  "pl": {
+    "message": "мн. ч.",
+    "description": "plural"
+  },
+  "dl": {
+    "message": "дв. ч.",
+    "description": "dual"
+  },
+  "gender": {
+    "message": "род",
+    "description": "gender"
+  },
+  "masc": {
+    "message": "мужской род",
+    "description": "masculine"
+  },
+  "fem": {
+    "message": "женский род",
+    "description": "feminine"
+  },
+  "neut": {
+    "message": "средний род",
+    "description": "neuter"
+  },
+  "case": {
+    "message": "падеж",
+    "description": "case"
+  },
+  "nom": {
+    "message": "именительный",
+    "description": "nominative case"
+  },
+  "gen": {
+    "message": "родительный",
+    "description": "genitive case"
+  },
+  "dat": {
+    "message": "дательный",
+    "description": "dative case"
+  },
+  "acc": {
+    "message": "винительный",
+    "description": "accusative case"
+  },
+  "voc": {
+    "message": "звательный",
+    "description": "vocative case"
+  },
+  "degree": {
+    "message": "степень",
+    "description": "adjective degree"
+  },
+  "comp": {
+    "message": "сравнительная степень",
+    "description": "comparative degree"
+  },
+  "superl": {
+    "message": "превосходная степень",
+    "description": "superlative degree"
+  },
+  "pos": {
+    "message": "часть речи",
+    "description": "part of speech"
+  },
+  "noun": {
+    "message": "существительное",
+    "description": "noun"
+  },
+  "verb": {
+    "message": "глагол",
+    "description": "verb"
+  },
+  "part": {
+    "message": "причастие",
+    "description": "participle"
+  },
+  "adj": {
+    "message": "прилагательное",
+    "description": "adjective"
+  },
+  "adv": {
+    "message": "наречие",
+    "description": "adverb"
+  },
+  "num": {
+    "message": "числительное",
+    "description": "numeral"
+  },
+  "prep": {
+    "message": "предлог",
+    "description": "preposition"
+  },
+  "indecl": {
+    "message": "неизменяемые части речи",
+    "description": "indeclinable parts of speech"
+  },
+  "pron": {
+    "message": "местоимение",
+    "description": "pronoun"
+  }
+}
