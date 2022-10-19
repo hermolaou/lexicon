@@ -2,7 +2,7 @@
     "name": "Greek lexicon & word study",
     "version": "0.0.0.1",
     "manifest_version": 2,
-    "description": "Ancient Greek lexicon which allows...",
+    "description": "Ancient Greek lexicon which shows forms tables for verbs, allows words lookup by doubleclicking and more.",
     "permissions": [
         "tabs"
     ],

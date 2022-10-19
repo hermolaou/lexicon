@@ -8,7 +8,7 @@ chrome.runtime.sendMessage({todo:'getLemmaData', lemma: lemma, form: lemma}, (re
     hDescription.innerHTML=resp.description
     divMeaning.innerHTML= resp.meanings ;
     
-    divFormsTables.innerHTML=resp.formsTables.join``;
+    divFormsTables.innerHTML="<table>"+resp.formsTables.join`</table><table>`+"</table>";
 
 })
 
