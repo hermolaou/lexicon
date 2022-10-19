@@ -186,5 +186,13 @@
   "pron": {
     "message": "αντωνυμία",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Μαθαίνω τις λέξεις",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Αναζήτιση τον λόγο στης πηγές",
+    "description": "Search Word examples button title"
   }
 }

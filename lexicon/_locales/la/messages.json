@@ -1,0 +1,130 @@
+{
+  "﻿tense": {
+    "message": "tempus",
+    "description": "verb/participle tense"
+  },
+  "pres": {
+    "message": "praesens",
+    "description": "present tense"
+  },
+  "fut": {
+    "message": "futurum",
+    "description": "future tense"
+  },
+  "aor": {
+    "message": "aoristus",
+    "description": "aorist tense"
+  },
+  "imperf": {
+    "message": "imperfectum",
+    "description": "imperfect tense"
+  },
+  "perf": {
+    "message": "perfectum",
+    "description": "perfect tense"
+  },
+  "plup": {
+    "message": "plus quam perfectum",
+    "description": "pluperfect tense"
+  },
+  "futperf": {
+    "message": "futurum perfectum",
+    "description": "future perfect tense"
+  },
+  "mood": {
+    "message": "modus",
+    "description": "verb mood"
+  },
+  "ind": {
+    "message": "indicativus",
+    "description": "indicative mood"
+  },
+  "subj": {
+    "message": "conjunctivus",
+    "description": "subjunctive mood"
+  },
+  "opt": {
+    "message": "optativus",
+    "description": "optative mood"
+  },
+  "imperat": {
+    "message": "imperativus",
+    "description": "imperative mood"
+  },
+  "voice": {
+    "message": "vox",
+    "description": "verb/participle voice"
+  },
+  "act": {
+    "message": "activum",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "mediopassivum",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "medium",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "passivum",
+    "description": "passive voice"
+  },
+  "inf": {
+    "message": "infinituvus",
+    "description": "infinitive"
+  },
+  "person": {
+    "message": "persona",
+    "description": "verb person"
+  },
+  "number": {
+    "message": "numero",
+    "description": "number (grammar, morphology)"
+  },
+  "case": {
+    "message": "casus",
+    "description": "case (grammar, morphology)"
+  },
+  "dat": {
+    "message": "dativus",
+    "description": "dative case"
+  },
+  "acc": {
+    "message": "accusativus",
+    "description": "accusative case"
+  },
+  "voc": {
+    "message": "vocativus",
+    "description": "vocative case"
+  },
+  "verb": {
+    "message": "verbum",
+    "description": "verb"
+  },
+  "part": {
+    "message": "participium",
+    "description": "participle"
+  },
+  "adj": {
+    "message": "adjectivum",
+    "description": "adjective"
+  },
+  "adv": {
+    "message": "adverbum",
+    "description": "adverb"
+  },
+  "num": {
+    "message": "numeralis",
+    "description": "numeral"
+  },
+  "prep": {
+    "message": "praepositio",
+    "description": "preposition"
+  },
+  "pron": {
+    "message": "pronomen",
+    "description": "pronoun"
+  }
+}

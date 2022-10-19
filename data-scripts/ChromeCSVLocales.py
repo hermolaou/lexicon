@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Название: Locale.py
+# Название: ChromeCSVLocales.py
 # Описание: Программа для создания файлов локализации интерфейса плагина для Chrome
-# Версия:   1.0
+# Версия:   2.0
 #
 
 import os
+import pandas as pd
 
 
 # путь к каталогу с файлами локализации
@@ -15,8 +16,11 @@ locale_path = '../lexicon/_locales/'
 # путь к CSV-файлу
 locale_file = locale_path+'messages.csv'
 
+# читаем данные из CSV-файла игнорируя комментарии
+df = pd.read_csv(locale_file, comment='#')
+
 # список языков
-langs = ['ru', 'el', 'en', 'lat']
+langs = list(df.columns)[2:]
 
 # создаем каталоги для каждого из языков, если они еще не созданы
 for lang in langs:

@@ -186,5 +186,13 @@
   "pron": {
     "message": "местоимение",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Изучать слова",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Поиск слова в источниках",
+    "description": "Search Word examples button title"
   }
 }

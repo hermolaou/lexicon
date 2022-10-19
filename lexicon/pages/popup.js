@@ -12,7 +12,7 @@ $("input").on('input', function(){
 	
 	//st = setTimeout (function() {
 		
-	q=GreekNormalize(txtWords.value.normalize());
+	q=GreekNormalize(GreekNormalize(txtWords.value.normalize()).normalize());
 
 	//if select query entered try it
 
@@ -22,6 +22,11 @@ $("input").on('input', function(){
 		
 		//if (!q.match(/[%_]/)) q+='%';
 		
+		if (q.length<3) return
+	
+		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
+			divResults.innerText=response.map((entry)=>{return entry[1]})
+		}), 1200);
 		if (q.length<3) return
 	
 		setTimeout(chrome.runtime.sendMessage({todo:'getMeanings', q: q}, function(response){
@@ -70,7 +75,7 @@ $("input").on('input', function(){
 		SqlAsync(qs, outputData);
 		*/
 	
-	//} else if (q.match(/^[\w\s]+$/)) {
+	////} else if (q.match(/^[\w\s]+$/)) {
 		//if English then load it through xml right here
 		//EnglishWordView
 		

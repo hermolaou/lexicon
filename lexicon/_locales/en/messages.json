@@ -71,6 +71,22 @@
     "message": "passive",
     "description": "passive voice"
   },
+  "act": {
+    "message": "active",
+    "description": "active voice"
+  },
+  "mp": {
+    "message": "mediopassive",
+    "description": "mediopassive voice"
+  },
+  "mid": {
+    "message": "middle",
+    "description": "middle voice"
+  },
+  "pass": {
+    "message": "passive",
+    "description": "passive voice"
+  },
   "inf": {
     "message": "infinitive",
     "description": "infinitive"
@@ -170,5 +186,13 @@
   "pron": {
     "message": "pronoun",
     "description": "pronoun"
+  },
+  "wordStudy": {
+    "message": "Study words",
+    "description": "Wordstudy button title"
+  },
+  "search": {
+    "message": "Lookup word in sources",
+    "description": "Search Word examples button title"
   }
 }
