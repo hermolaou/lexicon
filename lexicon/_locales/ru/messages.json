@@ -53,7 +53,7 @@
   },
   "voice": {
     "message": "залог",
-    "description": "verb participle voice"
+    "description": "voice"
   },
   "act": {
     "message": "действительный",
@@ -91,6 +91,10 @@
     "message": "3-е л.",
     "description": "3rd"
   },
+  "number": {
+    "message": "число",
+    "description": "number"
+  },
   "sg": {
     "message": "ед. ч.",
     "description": "singular"
@@ -102,6 +106,10 @@
   "dl": {
     "message": "дв. ч.",
     "description": "dual"
+  },
+  "gender": {
+    "message": "род",
+    "description": "gender"
   },
   "masc": {
     "message": "мужской род",
@@ -117,7 +125,7 @@
   },
   "case": {
     "message": "падеж",
-    "description": "case grammar morphology"
+    "description": "case"
   },
   "nom": {
     "message": "именительный",
@@ -138,6 +146,10 @@
   "voc": {
     "message": "звательный",
     "description": "vocative case"
+  },
+  "degree": {
+    "message": "степень",
+    "description": "adjective degree"
   },
   "comp": {
     "message": "сравнительная степень",
@@ -186,13 +198,5 @@
   "pron": {
     "message": "местоимение",
     "description": "pronoun"
-  },
-  "wordStudy": {
-    "message": "Изучать слова",
-    "description": "Wordstudy button title"
-  },
-  "search": {
-    "message": "Поиск слова в источниках",
-    "description": "Search Word examples button title"
   }
 }

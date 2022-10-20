@@ -53,7 +53,7 @@
   },
   "voice": {
     "message": "φωνή",
-    "description": "verb/participle voice"
+    "description": "voice"
   },
   "act": {
     "message": "ενεργετική",
@@ -80,71 +80,83 @@
     "description": "verb person"
   },
   "1st": {
-    "message": "πρώτο",
+    "message": "1ο",
     "description": "1st"
   },
   "2nd": {
-    "message": "δεύτερο",
+    "message": "2ο",
     "description": "2nd"
   },
   "3rd": {
-    "message": "τρίτο",
+    "message": "3ο",
     "description": "3rd"
+  },
+  "number": {
+    "message": "αριθμός",
+    "description": "number"
   },
   "sg": {
     "message": "ενικός",
     "description": "singular"
   },
   "pl": {
-    "message": "πληθυντικός",
+    "message": "πληθ.",
     "description": "plural"
   },
   "dl": {
     "message": "δυϊκός",
     "description": "dual"
   },
+  "gender": {
+    "message": "γένος",
+    "description": "gender"
+  },
   "masc": {
-    "message": "αρσενικό",
+    "message": "αρσ.",
     "description": "masculine"
   },
   "fem": {
-    "message": "θηλυκό",
+    "message": "θηλ.",
     "description": "feminine"
   },
   "neut": {
-    "message": "ουδέτερο",
+    "message": "ουδ.",
     "description": "neuter"
   },
   "case": {
     "message": "πτώση",
-    "description": "case grammar morphology"
+    "description": "case"
   },
   "nom": {
-    "message": "ονομαστική",
+    "message": "ονομ.",
     "description": "nominative case"
   },
   "gen": {
-    "message": "γενική",
+    "message": "γεν.",
     "description": "genitive case"
   },
   "dat": {
-    "message": "δοτική",
+    "message": "δοτ.",
     "description": "dative case"
   },
   "acc": {
-    "message": "αιτιατική",
+    "message": "αιτ.",
     "description": "accusative case"
   },
   "voc": {
-    "message": "κλητική",
+    "message": "κλητ.",
     "description": "vocative case"
   },
+  "degree": {
+    "message": "βαθμός",
+    "description": "adjective degree"
+  },
   "comp": {
-    "message": "κάτι",
+    "message": "συγκριτικός",
     "description": "comparative degree"
   },
   "superl": {
-    "message": "κάτι",
+    "message": "υπερθετικός",
     "description": "superlative degree"
   },
   "pos": {
@@ -186,13 +198,5 @@
   "pron": {
     "message": "αντωνυμία",
     "description": "pronoun"
-  },
-  "wordStudy": {
-    "message": "Μαθαίνω τις λέξεις",
-    "description": "Wordstudy button title"
-  },
-  "search": {
-    "message": "Αναζήτιση τον λόγο στης πηγές",
-    "description": "Search Word examples button title"
   }
 }
